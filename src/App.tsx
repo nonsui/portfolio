@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar';
+import WelcomePage from './WelcomePage';
+
 
 function App() {
   return (
@@ -19,6 +22,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <WelcomePage     
+            title="Jim Kash Portfolio" 
+            content="Weclome to my portfolio site"/>
+      <NavBar 
+            resumeCaption= "View Resume"
+            githubCaption= "github page"
+            aboutMeCaption= "About Me"
+            projectsCaption= "Projects"
+      />
     </div>
   );
 }
